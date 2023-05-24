@@ -62,11 +62,12 @@ public class biletUygulaması {
                 biletUcreti -= biletUcreti * 0.2;
                 biletUcreti *=2;
             }
-            else System.out.println("Hatalı veri girdiniz");
+            biletDokum(plakaNumarasi,km,yolculukTipi,biletUcreti);
         }
 
 
-        biletDokum(plakaNumarasi,km,yolculukTipi,biletUcreti);
+
+        else System.out.println("Hatalı veri girdiniz");
 
 
 
